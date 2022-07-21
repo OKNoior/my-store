@@ -7,6 +7,7 @@
 <p>Age {{person.age}}</p>
 <input type="number" max="72" min="18" required #ageInput = "ngModel" [(ngModel)]="person.age" name="" id="">
 <p>Valid {{ageInput.valid}}</p>
+
 <!-- events -->
 <h1>events</h1>
 <button [disabled]="btnDisabled">Enviar</button>
